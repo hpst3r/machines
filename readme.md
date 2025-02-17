@@ -10,16 +10,16 @@ I'll populate links as I create pages for each machine below.
 
 ## Desktops
 
-| Name                                             | Release Year | CPU        |
-| ------------------------------------------------ | ------------ | ---------- |
-| ASRock Z790 desktop                              | 2022         | i9-12900KS |
-| [Lenovo M715q Tiny](<Lenovo M715q/Lenovo M715q>) | 2018         | R5 2400GE  |
-| Lenovo M920q Tiny                                | 2018         | i5-8600T   |
-| Lenovo P520                                      | 2016         | W-2140B    |
-| Dell T5810                                       | 2014         | E5-2690 v4 |
-| Lenovo E32                                       | 2014         | i7-4790    |
-| Lenovo P710                                      | 2014         | RIP        |
-| Lenovo C30                                       | 2012         | E5-2680 v2 |
+| Name                                                | Release Year | CPU        |
+| --------------------------------------------------- | ------------ | ---------- |
+| ASRock Z790 desktop                                 | 2022         | i9-12900KS |
+| [Lenovo M715q Tiny](<Lenovo M715q/Lenovo M715q.md>) | 2018         | R5 2400GE  |
+| Lenovo M920q Tiny                                   | 2018         | i5-8600T   |
+| Lenovo P520                                         | 2016         | W-2140B    |
+| Dell T5810                                          | 2014         | E5-2690 v4 |
+| Lenovo E32                                          | 2014         | i7-4790    |
+| Lenovo P710                                         | 2014         | RIP        |
+| Lenovo C30                                          | 2012         | E5-2680 v2 |
 
 ## Servers
 
