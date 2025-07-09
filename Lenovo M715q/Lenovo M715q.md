@@ -1,4 +1,4 @@
-# Fetch
+## Fetch
 
 ```
 [liam@m715q-0 ~]$ fastfetch
@@ -24,7 +24,7 @@
                  ,od;                       Locale: C.UTF-8
 ```
 
-# Introduction
+## Introduction
 
 This machine is a Lenovo M715q Gen 2. It's main claim to fame is that it is a Zen 1 Tiny Mini Micro (TMM) node, which were not overly popular.
 
@@ -83,7 +83,7 @@ Both posts suggest doing the same thing - setting clocksource=tsc tsc=reliable i
 
 I've loaded AlmaLinux 9 on this machine with the Cockpit web UI, plus the Cockpit-Machines and Cockpit-Podman plugins for easy virtual machine and container management. I make a few tweaks to the system and install software with a fairly standard Ansible playbook that is used to configure all my AlmaLinux and Fedora Linux hypervisors.
 
-# Usage
+## Usage
 
 Before this most recent wipe, I had this box running some supporting Windows infrastructure for a lab environment. While 16gb of RAM is a bit tight, and that annoying little fan did make itself known at times, it did the trick.
 
@@ -115,12 +115,13 @@ The difference between Fedora and AlmaLinux is typically minor, but I will note 
 
 ### My thoughts
 
-Overall, it's a fine little box, though it makes very little sense to go for one of these over a M710q/M910q (which will be quieter, cheaper, have a nicer case, and are typically slightly less expensive).
+Overall, it's a fine little box, though it makes very little sense to go for one of these over a M710q/M910q (which will be quieter, potentially support vPro, have a nicer case, and are often less expensive).
 
 Maybe some day I'll come back and run some more thorough benchmarks here. I'd like to get a standard suite going.
 
-# System info
-## lspci
+## System info
+
+### lspci
 
 ```txt
 [liam@m715q-0 ~]$ lspci
@@ -160,7 +161,7 @@ Maybe some day I'll come back and run some more thorough benchmarks here. I'd li
 05:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 61)
 ```
 
-## lscpu
+### lscpu
 
 ```txt
 [liam@m715q-0 ~]$ lscpu
@@ -215,7 +216,7 @@ Vulnerabilities:
   Tsx async abort:        Not affected
 ```
 
-## /proc/cpuinfo
+### /proc/cpuinfo
 
 ```txt
 [liam@m715q-0 ~]$ cat /proc/cpuinfo
@@ -247,7 +248,7 @@ cache_alignment : 64
 address sizes   : 43 bits physical, 48 bits virtual
 power management: ts ttp tm hwpstate eff_freq_ro [13] [14]
 ```
-## dmidecode
+### dmidecode
 
 ```txt
 [liam@m715q-0 ~]$ sudo dmidecode
@@ -1240,7 +1241,7 @@ Handle 0x005A, DMI type 127, 4 bytes
 End Of Table
 ```
 
-## lshw
+### lshw
 
 ```txt
 [liam@m715q-0 ~]$ sudo lshw
