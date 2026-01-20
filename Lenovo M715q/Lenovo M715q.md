@@ -33,6 +33,7 @@ I purchased it off eBay for about $50 in late 2024 with a single 8gb SODIMM. I u
 This system boasts a real monster of a quad core Zen 1 part: the mighty 35w Ryzen 5 2400GE. Back in its day this thing had decent integrated graphics.. and I think the praise stops there. But, well, it was a first-gen product, and we know how well Zen is doing today..
 
 Unlike the i5-8600T ThinkCentre M920qs that I have around, this guy is not particularly fast, particularly expandable or particularly interesting:
+
 - It lacks the internal PCI-E 3.0x8 slot that the M920q and M720q both feature - no cheeky i350 or X540 upfits here
 - does not have vPro support like the M920q (it has DASH, but, well..)
 - has a noticeably cheaper chassis (reused from AMD A-series APU ThinkCentre Tiny models)
